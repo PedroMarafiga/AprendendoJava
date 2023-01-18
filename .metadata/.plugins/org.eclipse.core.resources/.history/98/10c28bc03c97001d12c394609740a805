@@ -1,0 +1,10 @@
+package desafio_formasGeometricas;
+
+public class formas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package desafio_formasGeometricas;
+
+
+import java.util.Scanner;
+
+public class formas {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		float a,b,c;
+		float tri,cir,trap,qua,ret;
+		
+		a = sc.nextFloat();
+		b = sc.nextFloat();
+		c = sc.nextFloat();
+		
+		System.out.println("AREAS:");
+		System.out.printf("Triangulo A base e C altura: %.4f %n",a*c/2);
+		
+		
+		sc.close();
+	}
+
+}
