@@ -50,9 +50,9 @@ public class cadastro {
 	public String toString() {
 		return "account :" 
 		+ number
-		+ ",Holder : "
+		+ ", Holder : "
 		+ name
-		+ ",balance : R$ "
+		+ ", Balance : R$ "
 		+ String.format("%.2f",money); 
 	}
 }
